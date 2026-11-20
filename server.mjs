@@ -1,27 +1,29 @@
-// خدمة قاعدة بيانات الأسعار — SQLite + HTTP API بدون أي مكتبات خارجية
+// خدمة قاعدة بيانات الأسعار — PostgreSQL (أو SQLite محلياً) + HTTP API
 //
 //   GET  /api/health                    فحص الخدمة
 //   GET  /api/catalog                   المتاجر والأقسام والمنتجات مع آخر سعر (للتطبيق)
 //   GET  /api/products/:id/history      سجل تغيّر أسعار منتج
 //   POST /api/prices                    إضافة أسعار (للـ crawler) — يحتاج  Authorization: Bearer <API_TOKEN>
 //
-// الإعدادات (من db/.env): PORT, API_TOKEN, CORS_ORIGIN, DB_PATH
+// الإعدادات (من db/.env): PORT, API_TOKEN, CORS_ORIGIN
+//   DATABASE_URL موجود → PostgreSQL (الاستضافة).  غير موجود → SQLite في DB_PATH (للتطوير على الجهاز)
 
 import { createServer } from 'node:http';
 import { timingSafeEqual } from 'node:crypto';
-import { openDb, getCatalog, getHistory, recordPrice, transaction } from './lib.mjs';
+import { openDb, getCatalog, getHistory, recordPrice, countProducts } from './lib.mjs';
+import { seed } from './seed.mjs';
 
 const PORT = Number(process.env.PORT || 8787);
 const TOKEN = process.env.API_TOKEN || '';
 const CORS_ORIGIN = process.env.CORS_ORIGIN || '*';
 const MAX_BODY = 1024 * 1024;
 
-const db = openDb();
+const db = await openDb();
 
-// First start on a fresh disk (e.g. a new hosting volume): fill it from seed/catalog.json
-if (!db.prepare('SELECT COUNT(*) AS n FROM products').get().n) {
+// First start on an empty database: fill it from seed/catalog.json
+if (!(await countProducts(db))) {
   console.log('empty database — seeding from seed/catalog.json');
-  await import('./seed.mjs');
+  await seed(db);
 }
 
 function send(res, status, body, extra = {}) {
@@ -68,10 +70,10 @@ const server = createServer(async (req, res) => {
 
     if (req.method === 'GET' && path === '/api/health') return send(res, 200, { ok: true });
 
-    if (req.method === 'GET' && path === '/api/catalog') return send(res, 200, getCatalog(db));
+    if (req.method === 'GET' && path === '/api/catalog') return send(res, 200, await getCatalog(db));
 
     const hist = path.match(/^\/api\/products\/([\w.-]+)\/history$/);
-    if (req.method === 'GET' && hist) return send(res, 200, getHistory(db, hist[1]));
+    if (req.method === 'GET' && hist) return send(res, 200, await getHistory(db, hist[1]));
 
     if (req.method === 'POST' && path === '/api/prices') {
       if (!authorized(req)) return send(res, 401, { error: 'unauthorized' });
@@ -79,9 +81,9 @@ const server = createServer(async (req, res) => {
       const list = Array.isArray(body.prices) ? body.prices : [];
       const source = body.source === 'crawler' ? 'crawler' : 'manual';
       const result = { new: 0, changed: 0, same: 0, unknown: [] };
-      transaction(db, () => {
+      await db.tx(async (t) => {
         for (const p of list) {
-          const r = recordPrice(db, { ...p, source });
+          const r = await recordPrice(t, { ...p, source });
           if (r === 'unknown') result.unknown.push(`${p.productId}@${p.storeId}`); else result[r]++;
         }
       });
@@ -96,5 +98,5 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`prices API on http://localhost:${PORT}  (writes ${TOKEN ? 'enabled' : 'DISABLED — set API_TOKEN'})`);
+  console.log(`prices API on http://localhost:${PORT}  (${db.kind}, writes ${TOKEN ? 'enabled' : 'DISABLED — set API_TOKEN'})`);
 });

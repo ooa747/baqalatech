@@ -2,6 +2,9 @@
 //
 //   npm run set-price -- <productId> <storeId> <price> [--old <price>] [--out]
 //   مثال:  npm run set-price -- nova-40x330 carrefour 20.99 --old 22.75
+//
+// يكتب في القاعدة المحددة بـ DATABASE_URL (PostgreSQL) أو في SQLite المحلي.
+// للقاعدة المنشورة الأسهل: أرسل السعر للـ API (POST /api/prices) بالمفتاح السري.
 
 import { openDb, recordPrice } from './lib.mjs';
 
@@ -15,12 +18,13 @@ if (!productId || !storeId || !(price > 0)) {
   process.exit(1);
 }
 
-const db = openDb();
-const result = recordPrice(db, {
+const db = await openDb();
+const result = await recordPrice(db, {
   productId, storeId, price,
   old: oldIdx >= 0 ? parseFloat(args[oldIdx + 1]) : undefined,
   inStock: !args.includes('--out'),
   source: 'manual',
 });
+await db.close();
 if (result === 'unknown') { console.log(`✗ المنتج أو المتجر غير موجود: ${productId} @ ${storeId}`); process.exit(1); }
 console.log(`✓ ${productId} @ ${storeId} = ${price} (${result})`);

@@ -1289,6 +1289,1497 @@
           "checked": "2026-11-20"
         }
       }
+    },
+    {
+      "id": "almarai-milk-1l",
+      "name": "حليب المراعي طازج كامل الدسم",
+      "category": "dairy",
+      "tags": [
+        "حليب",
+        "حليب المراعي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "panda": {
+          "price": 7,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 7,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-laban-1l",
+      "name": "لبن المراعي طازج كامل الدسم",
+      "category": "dairy",
+      "tags": [
+        "لبن",
+        "روب"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#4E9E6A",
+      "prices": {
+        "panda": {
+          "price": 7,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 7,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-yogurt-1kg",
+      "name": "زبادي المراعي كامل الدسم",
+      "category": "dairy",
+      "shape": "jar",
+      "packType": "علبة",
+      "tags": [
+        "زبادي",
+        "روب"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "panda": {
+          "price": 8.5,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 8.5,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nescafe-red-mug-190g",
+      "name": "نسكافيه ريد مج",
+      "category": "tea",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "قهوة",
+        "رد مج",
+        "ريد ماج",
+        "red mug"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 190,
+        "unit": "جم"
+      },
+      "color": "#B23A31",
+      "prices": {
+        "panda": {
+          "price": 53.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 48.35,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nescafe-gold-190g",
+      "name": "نسكافيه جولد بلند",
+      "category": "tea",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "قهوة",
+        "نسكافيه جولد",
+        "جولد بليند",
+        "gold blend"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 190,
+        "unit": "جم"
+      },
+      "color": "#AF863A",
+      "prices": {
+        "panda": {
+          "price": 61.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 58.45,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nutella-750g",
+      "name": "نوتيلا",
+      "category": "pantry",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "شوكولاتة",
+        "بندق",
+        "فطور"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 750,
+        "unit": "جم"
+      },
+      "color": "#6B3A2A",
+      "prices": {
+        "panda": {
+          "price": 35,
+          "old": 40.5,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 36.05,
+          "old": 40.1,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nutella-1kg",
+      "name": "نوتيلا",
+      "category": "pantry",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "شوكولاتة",
+        "بندق",
+        "فطور"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#6B3A2A",
+      "prices": {
+        "panda": {
+          "price": 49.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 50.4,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "goody-creamy-peanut-butter-510g",
+      "name": "زبدة فول سوداني قودي ناعمة",
+      "category": "pantry",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "فطور",
+        "قودي",
+        "جودي",
+        "زبدة الفول السوداني"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 510,
+        "unit": "جم"
+      },
+      "color": "#B98049",
+      "prices": {
+        "panda": {
+          "price": 22.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 15.99,
+          "old": 22.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-uht-full-4x1l",
+      "name": "حليب المراعي طويل الأجل كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "المراعي",
+        "حليب",
+        "كامل الدسم"
+      ],
+      "pack": {
+        "count": 4,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 24.65,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-uht-lowfat-4x1l",
+      "name": "حليب المراعي طويل الأجل قليل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "المراعي",
+        "حليب",
+        "قليل الدسم"
+      ],
+      "pack": {
+        "count": 4,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 24.65,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-uht-lactofree-4x1l",
+      "name": "حليب المراعي طويل الأجل خالي اللاكتوز",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "المراعي",
+        "حليب",
+        "خالي اللاكتوز"
+      ],
+      "pack": {
+        "count": 4,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 36,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "rainbow-evaporated-170g",
+      "name": "حليب أبو قوس مبخر أصلي",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "أبو قوس",
+        "حليب مبخر",
+        "رينبو"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 170,
+        "unit": "جم"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 3.6,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-evaporated-6x170g",
+      "name": "حليب المراعي مبخر",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "المراعي",
+        "حليب مبخر"
+      ],
+      "pack": {
+        "count": 6,
+        "size": 170,
+        "unit": "جم"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 8.99,
+          "checked": "2026-11-20",
+          "old": 13.5
+        }
+      }
+    },
+    {
+      "id": "almarai-milk-powder-2.25kg",
+      "name": "حليب المراعي مجفف كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "المراعي",
+        "حليب بودرة"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2.25,
+        "unit": "كجم"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 93.65,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "anchor-milk-powder-2.25kg",
+      "name": "حليب أنكور مجفف كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "أنكور",
+        "حليب بودرة"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2.25,
+        "unit": "كجم"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 69.99,
+          "checked": "2026-11-20",
+          "old": 88.95
+        }
+      }
+    },
+    {
+      "id": "alpro-almond-milk-1l",
+      "name": "مشروب ألبرو لوز محمص",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "ألبرو",
+        "حليب لوز",
+        "نباتي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "lulu": {
+          "price": 19.5,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "lacnor-mango-8x180ml",
+      "name": "عصير لاكنور مانجو بدون سكر مضاف",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "لاكنور",
+        "عصير مانجو"
+      ],
+      "pack": {
+        "count": 8,
+        "size": 180,
+        "unit": "مل"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 18.5,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "redbull-250ml",
+      "name": "ريد بُل مشروب طاقة",
+      "category": "tea",
+      "shape": "cans",
+      "tags": [
+        "ريد بول",
+        "مشروب طاقة"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 250,
+        "unit": "مل"
+      },
+      "color": "#8B4A2B",
+      "prices": {
+        "lulu": {
+          "price": 11.25,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nutella-350g",
+      "name": "نوتيلا شوكولاتة بالبندق",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "نوتيلا",
+        "شوكولاتة",
+        "بندق"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 350,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 15.99,
+          "checked": "2026-11-20",
+          "old": 19.95
+        }
+      }
+    },
+    {
+      "id": "nutella-200g",
+      "name": "نوتيلا شوكولاتة بالبندق",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "نوتيلا",
+        "شوكولاتة",
+        "بندق"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 15.4,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "lotus-biscoff-720g",
+      "name": "كريمة بسكويت لوتس بيسكوف",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "لوتس",
+        "بيسكوف",
+        "كريمة بسكويت"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 720,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 48.4,
+          "checked": "2026-11-20",
+          "old": 58.65
+        }
+      }
+    },
+    {
+      "id": "alalali-strawberry-jam-400g",
+      "name": "مربى العلالي فراولة",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "العلالي",
+        "مربى فراولة"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 8.99,
+          "checked": "2026-11-20",
+          "old": 13.95
+        }
+      }
+    },
+    {
+      "id": "american-garden-peanut-butter-454g",
+      "name": "زبدة فول سوداني أمريكان جاردن ناعمة",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "أمريكان جاردن",
+        "زبدة فول سوداني"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 454,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 18.5,
+          "checked": "2026-11-20",
+          "old": 21.55
+        }
+      }
+    },
+    {
+      "id": "lotus-biscoff-400g",
+      "name": "كريمة بسكويت لوتس بيسكوف",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "لوتس",
+        "بيسكوف",
+        "كريمة بسكويت"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 27.8,
+          "checked": "2026-11-20",
+          "old": 37
+        }
+      }
+    },
+    {
+      "id": "quaker-oats-tin-500g",
+      "name": "شوفان كويكر للطبخ",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "كويكر",
+        "شوفان"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 9.25,
+          "checked": "2026-11-20",
+          "old": 12.3
+        }
+      }
+    },
+    {
+      "id": "nesquik-cereal-bar-25g",
+      "name": "لوح حبوب نسكويك بالشوكولاتة",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "نسكويك",
+        "لوح حبوب"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 25,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 2.85,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "whites-organic-oats-1kg",
+      "name": "شوفان وايتس عضوي جامبو",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "وايتس",
+        "شوفان عضوي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 23.15,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nature-valley-oats-berries-5x42g",
+      "name": "ألواح نيتشر فالي شوفان وتوت",
+      "category": "pantry",
+      "shape": "box",
+      "tags": [
+        "نيتشر فالي",
+        "شوفان",
+        "توت"
+      ],
+      "pack": {
+        "count": 5,
+        "size": 42,
+        "unit": "جم"
+      },
+      "color": "#B86B31",
+      "prices": {
+        "lulu": {
+          "price": 20.35,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "rahaf-sunflower-3l",
+      "name": "زيت رهف دوار الشمس",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "رهف",
+        "زيت دوار الشمس"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 3,
+        "unit": "لتر"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 30.4,
+          "checked": "2026-11-20",
+          "old": 39.65
+        }
+      }
+    },
+    {
+      "id": "amul-cow-ghee-1l",
+      "name": "سمن أمول بقري عالي النكهة",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "أمول",
+        "سمن بقري"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 85.45,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nambisans-cow-ghee-500ml",
+      "name": "سمن نامبيسان بقري نقي",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "نامبيسان",
+        "سمن بقري"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "مل"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 45.25,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "lulu-sunflower-1.5l",
+      "name": "زيت لولو دوار الشمس",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "لولو",
+        "زيت دوار الشمس"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 20.55,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "faash-coconut-1l",
+      "name": "زيت فاش جوز الهند",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "فاش",
+        "زيت جوز الهند"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 25.75,
+          "checked": "2026-11-20",
+          "old": 36
+        }
+      }
+    },
+    {
+      "id": "noor-sunflower-2x1.5l",
+      "name": "زيت نور دوار الشمس",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "نور",
+        "زيت دوار الشمس"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 40.15,
+          "checked": "2026-11-20",
+          "old": 46.3
+        }
+      }
+    },
+    {
+      "id": "coco-organic-coconut-2l",
+      "name": "زيت كوكو عضوي جوز الهند",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "كوكو",
+        "زيت جوز الهند",
+        "عضوي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "لتر"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 49.95,
+          "checked": "2026-11-20",
+          "old": 61.75
+        }
+      }
+    },
+    {
+      "id": "abu-zahra-sunflower-1.5l",
+      "name": "زيت أبو زهرة دوار الشمس",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "أبو زهرة",
+        "زيت دوار الشمس"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#E2A827",
+      "prices": {
+        "lulu": {
+          "price": 14.99,
+          "checked": "2026-11-20",
+          "old": 22.95
+        }
+      }
+    },
+    {
+      "id": "dettol-antiseptic-2x1l",
+      "name": "ديتول سائل مطهر مضاد للبكتيريا",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "ديتول",
+        "مطهر"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 44.99,
+          "checked": "2026-11-20",
+          "old": 62.95
+        }
+      }
+    },
+    {
+      "id": "clorox-bleach-950ml",
+      "name": "كلوركس مبيض سائل أصلي",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "كلوركس",
+        "مبيض أصلي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 950,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 7.45,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "clorox-platinum-950ml",
+      "name": "كلوركس بلاتين مبيض أصلي",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "كلوركس بلاتين",
+        "مبيض"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 950,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 8.2,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "jif-lemon-1.5l",
+      "name": "جف كريم منظف برائحة الليمون",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "جف",
+        "كريم ليمون"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 26.25,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "clorox-bleach-1.89l",
+      "name": "كلوركس مبيض سائل أصلي",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "كلوركس",
+        "مبيض أصلي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.89,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 12.6,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "jif-lemon-500ml",
+      "name": "جف كريم منظف بالليمون",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "جف",
+        "كريم ليمون"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 12.95,
+          "checked": "2026-11-20",
+          "old": 19.95
+        }
+      }
+    },
+    {
+      "id": "jif-lemon-750ml",
+      "name": "جف كريم منظف بالليمون",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "جف",
+        "كريم ليمون"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 750,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 26.7,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "dettol-antiseptic-2l",
+      "name": "ديتول سائل مطهر مضاد للبكتيريا",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "ديتول",
+        "مطهر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 63.1,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "dettol-antiseptic-1l",
+      "name": "ديتول سائل مطهر مضاد للبكتيريا",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "ديتول",
+        "مطهر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 38.05,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "harpic-lavender-500ml",
+      "name": "هاربيك منظف مرحاض لافندر",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "هاربيك",
+        "لافندر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 13.15,
+          "checked": "2026-11-20",
+          "old": 14.35
+        }
+      }
+    },
+    {
+      "id": "dac-rim-block-lavender-50g",
+      "name": "داك قالب تنظيف المرحاض لافندر",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "داك",
+        "مرحاض لافندر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 50,
+        "unit": "جم"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 15.7,
+          "checked": "2026-11-20",
+          "old": 19.3
+        }
+      }
+    },
+    {
+      "id": "dettol-floor-pine-2x1.8l",
+      "name": "ديتول منظف أرضيات بالصنوبر",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "ديتول",
+        "أرضيات صنوبر"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 1.8,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 50.4,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "dac-glass-cleaner-650ml",
+      "name": "داك منظف زجاج",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "داك",
+        "منظف زجاج"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 650,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 12.35,
+          "checked": "2026-11-20",
+          "old": 15.7
+        }
+      }
+    },
+    {
+      "id": "dettol-kitchen-orange-500ml",
+      "name": "ديتول بخاخ منظف مطبخ بالبرتقال",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "ديتول",
+        "مطبخ برتقال"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 27.75,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "clorox-scentiva-spray-500ml",
+      "name": "كلوركس سينتيفا بخاخ متعدد الأسطح",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "كلوركس سينتيفا",
+        "منظف أسطح"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 12.25,
+          "checked": "2026-11-20",
+          "old": 19.95
+        }
+      }
+    },
+    {
+      "id": "clorox-floral-3.78l",
+      "name": "كلوركس مبيض برائحة الزهور",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "كلوركس",
+        "مبيض زهور"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 3.78,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 28.3,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "vileda-tiptop-5pcs",
+      "name": "إسفنج صحون فيلدا تيب توب",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "فيلدا",
+        "إسفنج تيب توب"
+      ],
+      "pack": {
+        "count": 5,
+        "size": null,
+        "unit": "حبة"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 9.5,
+          "checked": "2026-11-20",
+          "old": 11.25
+        }
+      }
+    },
+    {
+      "id": "dettol-antiseptic-250ml",
+      "name": "ديتول سائل مطهر مضاد للبكتيريا",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "ديتول",
+        "مطهر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 250,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 18,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "vileda-sponge-cloth-10pcs",
+      "name": "فوط إسفنجية فيلدا",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "فيلدا",
+        "فوط إسفنجية"
+      ],
+      "pack": {
+        "count": 10,
+        "size": null,
+        "unit": "حبة"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 43.2,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "clorox-orange-3.78l",
+      "name": "كلوركس مبيض برائحة البرتقال",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "كلوركس",
+        "مبيض برتقال"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 3.78,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 28.3,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "dac-rim-block-assorted-3x50g",
+      "name": "داك قالب تنظيف المرحاض مشكل",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "داك",
+        "قالب مرحاض"
+      ],
+      "pack": {
+        "count": 3,
+        "size": 50,
+        "unit": "جم"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 31.15,
+          "checked": "2026-11-20",
+          "old": 38.05
+        }
+      }
+    },
+    {
+      "id": "dac-drain-opener-500g",
+      "name": "داك فاتح مجاري",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "داك",
+        "فاتح مجاري"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 15.4,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "dettol-antiseptic-125ml",
+      "name": "ديتول سائل مطهر مضاد للبكتيريا",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "ديتول",
+        "مطهر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 125,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 9.8,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "clorox-orange-1.89l",
+      "name": "كلوركس مبيض برائحة البرتقال",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "كلوركس",
+        "مبيض برتقال"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.89,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 13.9,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "ariel-platinum-gel-4l",
+      "name": "أريال بلاتينيوم جل غسيل عادي",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "أريال",
+        "بلاتينيوم جل"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 4,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 47.65,
+          "checked": "2026-11-20",
+          "old": 57.15
+        }
+      }
+    },
+    {
+      "id": "tide-triple-power-4l",
+      "name": "تايد تربل باور سائل غسيل أصلي",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "تايد",
+        "تربل باور"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 4,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 36.99,
+          "checked": "2026-11-20",
+          "old": 55.5
+        }
+      }
+    },
+    {
+      "id": "pril-lemon-2x950ml",
+      "name": "بريل سائل صحون بالليمون",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "بريل",
+        "صحون ليمون"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 950,
+        "unit": "مل"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 24.45,
+          "checked": "2026-11-20",
+          "old": 28.8
+        }
+      }
+    },
+    {
+      "id": "downy-valley-dew-3l",
+      "name": "داوني منعم أقمشة نسيم الوادي",
+      "category": "cleaning",
+      "shape": "jug",
+      "tags": [
+        "داوني",
+        "نسيم الوادي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 3,
+        "unit": "لتر"
+      },
+      "color": "#2A9A72",
+      "prices": {
+        "lulu": {
+          "price": 16.99,
+          "checked": "2026-11-20",
+          "old": 33.5
+        }
+      }
     }
   ]
 }

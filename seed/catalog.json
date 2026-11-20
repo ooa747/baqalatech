@@ -78,6 +78,20 @@
       "emoji": "☕",
       "shape": "box",
       "packType": "علبة"
+    },
+    {
+      "id": "pantry",
+      "name": "مواد غذائية",
+      "emoji": "🥫",
+      "shape": "box",
+      "packType": "علبة"
+    },
+    {
+      "id": "cleaning",
+      "name": "منظفات وورقيات",
+      "emoji": "🧴",
+      "shape": "jug",
+      "packType": "عبوة"
     }
   ],
   "products": [
@@ -913,6 +927,365 @@
         },
         "tamimi": {
           "price": 34.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-yogurt-2kg",
+      "name": "زبادي المراعي كامل الدسم",
+      "category": "dairy",
+      "shape": "jar",
+      "packType": "علبة",
+      "tags": [
+        "زبادي",
+        "روب"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "كجم"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "carrefour": {
+          "price": 16,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 16,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 16,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 16,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "kraft-cheddar-500g",
+      "name": "جبنة كرافت شيدر",
+      "category": "dairy",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "جبن",
+        "جبنه"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#E8A33D",
+      "prices": {
+        "carrefour": {
+          "price": 29.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 29.8,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nido-400g",
+      "name": "حليب نيدو مجفف كامل الدسم",
+      "category": "dairy",
+      "shape": "jar",
+      "packType": "علبة",
+      "tags": [
+        "حليب",
+        "بودرة"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#2F6DB5",
+      "prices": {
+        "carrefour": {
+          "price": 26.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 26.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "indomie-chicken-5x75",
+      "name": "إندومي بنكهة الدجاج",
+      "category": "pantry",
+      "shape": "pack",
+      "packType": "عرض",
+      "tags": [
+        "اندومي",
+        "نودلز",
+        "شعيرية"
+      ],
+      "pack": {
+        "count": 5,
+        "size": 75,
+        "unit": "جم"
+      },
+      "color": "#D93A2B",
+      "prices": {
+        "carrefour": {
+          "price": 6.7,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 6.7,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "kelloggs-cornflakes-500g",
+      "name": "كيلوجز كورن فليكس",
+      "category": "pantry",
+      "shape": "box",
+      "packType": "علبة",
+      "tags": [
+        "كورن فليكس",
+        "حبوب",
+        "فطور"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#E04E39",
+      "prices": {
+        "carrefour": {
+          "price": 27.25,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 17.99,
+          "old": 29,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 16.99,
+          "old": 28.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nutella-400g",
+      "name": "نوتيلا",
+      "category": "pantry",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "شوكولاتة",
+        "فطور"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#6B3A2A",
+      "prices": {
+        "carrefour": {
+          "price": 22.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 24.95,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 22.6,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 25.99,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "heinz-ketchup-460g",
+      "name": "كاتشب هاينز",
+      "category": "pantry",
+      "shape": "jug",
+      "packType": "عبوة",
+      "tags": [
+        "كاتشب",
+        "صلصة"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 460,
+        "unit": "جم"
+      },
+      "color": "#C8102E",
+      "prices": {
+        "carrefour": {
+          "price": 19.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 12.99,
+          "old": 19.99,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 23.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 12.5,
+          "old": 17.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "ariel-6kg",
+      "name": "مسحوق أريال باور كلين",
+      "category": "cleaning",
+      "shape": "box",
+      "packType": "كيس",
+      "tags": [
+        "اريال",
+        "غسيل",
+        "مسحوق"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 6,
+        "unit": "كجم"
+      },
+      "color": "#1E5BB8",
+      "prices": {
+        "carrefour": {
+          "price": 73.99,
+          "old": 79.25,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 63.99,
+          "old": 86.99,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 55,
+          "old": 78.99,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "fairy-2x800",
+      "name": "سائل فيري لغسيل الصحون",
+      "category": "cleaning",
+      "shape": "jug",
+      "packType": "عرض",
+      "tags": [
+        "فيري",
+        "صحون",
+        "جلي"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 800,
+        "unit": "مل"
+      },
+      "color": "#3FA34D",
+      "prices": {
+        "carrefour": {
+          "price": 21.99,
+          "old": 29,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 27.05,
+          "old": 33.45,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 23.99,
+          "old": 29.99,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "clorox-3.78l",
+      "name": "مبيض كلوركس الأصلي",
+      "category": "cleaning",
+      "shape": "jug",
+      "packType": "عبوة",
+      "tags": [
+        "كلوركس",
+        "مبيض",
+        "كلور"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 3.78,
+        "unit": "لتر"
+      },
+      "color": "#3C7DD9",
+      "prices": {
+        "lulu": {
+          "price": 24.45,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 25.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 22.75,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "fine-tissues-10x80",
+      "name": "مناديل فاين للوجه 80 منديل",
+      "category": "cleaning",
+      "shape": "box",
+      "packType": "عرض",
+      "tags": [
+        "مناديل",
+        "فاين",
+        "كلينكس"
+      ],
+      "pack": {
+        "count": 10,
+        "unit": "علبة"
+      },
+      "color": "#2BA3A0",
+      "prices": {
+        "carrefour": {
+          "price": 23.99,
+          "old": 26.99,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 17.99,
+          "old": 26.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 17.99,
+          "old": 25.95,
           "checked": "2026-11-20"
         }
       }

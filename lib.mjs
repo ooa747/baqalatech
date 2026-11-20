@@ -11,7 +11,19 @@ export const HERE = dirname(fileURLToPath(import.meta.url));
 export async function openDb() {
   const db = process.env.DATABASE_URL ? await openPostgres(process.env.DATABASE_URL) : await openSqlite();
   await db.exec(readFileSync(join(HERE, db.kind === 'postgres' ? 'schema.pg.sql' : 'schema.sqlite.sql'), 'utf8'));
+  await migrate(db);
   return db;
+}
+
+/** Columns added after the first release — added in place on existing databases. */
+const PRODUCT_COLUMNS = { image_data: 'TEXT', image_type: 'TEXT', image_ver: 'TEXT' };
+async function migrate(db) {
+  if (db.kind === 'postgres') {
+    for (const [col, type] of Object.entries(PRODUCT_COLUMNS)) await db.exec(`ALTER TABLE products ADD COLUMN IF NOT EXISTS ${col} ${type}`);
+  } else {
+    const have = new Set((await db.all('PRAGMA table_info(products)')).map((c) => c.name));
+    for (const [col, type] of Object.entries(PRODUCT_COLUMNS)) if (!have.has(col)) await db.exec(`ALTER TABLE products ADD COLUMN ${col} ${type}`);
+  }
 }
 
 async function openSqlite(path = process.env.DB_PATH || join(HERE, 'data', 'prices.db')) {
@@ -112,14 +124,42 @@ export async function getCatalog(db) {
     });
     if (p.checked_at > updatedAt) updatedAt = p.checked_at;
   }
-  const products = (await db.all('SELECT * FROM products WHERE active = 1 ORDER BY sort, id')).map((p) => strip({
+  const products = (await db.all(`SELECT id, name, category_id, pack_count, pack_size, pack_unit, pack_type, shape, color, tags, image_ver
+                                  FROM products WHERE active = 1 ORDER BY sort, id`)).map((p) => strip({
     id: p.id, name: p.name, category: p.category_id,
     packType: p.pack_type, shape: p.shape, color: p.color,
     tags: p.tags ? JSON.parse(p.tags) : undefined,
+    image: p.image_ver ? `/api/products/${encodeURIComponent(p.id)}/image?v=${p.image_ver}` : undefined,
     pack: strip({ count: p.pack_count, size: p.pack_size, unit: p.pack_unit }),
     prices: byProduct.get(p.id) || {},
   }));
   return { updatedAt: updatedAt || meta.updatedAt || null, currency: meta.currency || 'ر.س', note: meta.note || '', stores, categories, products };
+}
+
+/* ---------- Product images (small, pre-resized by the admin page; stored as base64) ---------- */
+export const IMAGE_TYPES = ['image/webp', 'image/jpeg', 'image/png'];
+export const MAX_IMAGE_BYTES = 400 * 1024;
+
+/** dataUrl: "data:image/webp;base64,…" → returns { ok, error?, ver? } */
+export async function setImage(db, productId, dataUrl) {
+  const m = /^data:([\w/+.-]+);base64,([A-Za-z0-9+/=]+)$/.exec(String(dataUrl || ''));
+  if (!m) return { ok: false, error: 'invalid image' };
+  const [, type, b64] = m;
+  if (!IMAGE_TYPES.includes(type)) return { ok: false, error: 'unsupported type' };
+  if (Buffer.byteLength(b64, 'base64') > MAX_IMAGE_BYTES) return { ok: false, error: 'image too large' };
+  if (!(await db.get('SELECT 1 AS x FROM products WHERE id = $1', [productId]))) return { ok: false, error: 'unknown product' };
+  const ver = Date.now().toString(36);
+  await db.run('UPDATE products SET image_data = $1, image_type = $2, image_ver = $3 WHERE id = $4', [b64, type, ver, productId]);
+  return { ok: true, ver };
+}
+
+export async function getImage(db, productId) {
+  const r = await db.get('SELECT image_data, image_type FROM products WHERE id = $1 AND image_data IS NOT NULL', [productId]);
+  return r ? { type: r.image_type, body: Buffer.from(r.image_data, 'base64') } : null;
+}
+
+export async function deleteImage(db, productId) {
+  await db.run('UPDATE products SET image_data = NULL, image_type = NULL, image_ver = NULL WHERE id = $1', [productId]);
 }
 
 export async function getHistory(db, productId) {

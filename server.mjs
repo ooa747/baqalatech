@@ -10,7 +10,7 @@
 
 import { createServer } from 'node:http';
 import { timingSafeEqual } from 'node:crypto';
-import { openDb, getCatalog, getHistory, recordPrice, countProducts } from './lib.mjs';
+import { openDb, getCatalog, getHistory, recordPrice, setImage, getImage, deleteImage } from './lib.mjs';
 import { seed } from './seed.mjs';
 
 const PORT = Number(process.env.PORT || 8787);
@@ -20,11 +20,9 @@ const MAX_BODY = 1024 * 1024;
 
 const db = await openDb();
 
-// First start on an empty database: fill it from seed/catalog.json
-if (!(await countProducts(db))) {
-  console.log('empty database — seeding from seed/catalog.json');
-  await seed(db);
-}
+// Sync stores/categories/products from seed/catalog.json on every start, so a deploy with an edited
+// catalog adds the new products. Safe to repeat: existing prices, history and images are left alone.
+await seed(db);
 
 function send(res, status, body, extra = {}) {
   res.writeHead(status, {
@@ -32,7 +30,7 @@ function send(res, status, body, extra = {}) {
     'Cache-Control': 'no-cache',
     'Access-Control-Allow-Origin': CORS_ORIGIN,
     'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
     ...extra,
   });
   res.end(body === undefined ? '' : JSON.stringify(body));
@@ -74,6 +72,26 @@ const server = createServer(async (req, res) => {
 
     const hist = path.match(/^\/api\/products\/([\w.-]+)\/history$/);
     if (req.method === 'GET' && hist) return send(res, 200, await getHistory(db, hist[1]));
+
+    const img = path.match(/^\/api\/products\/([\w.-]+)\/image$/);
+    if (img && req.method === 'GET') {
+      const image = await getImage(db, img[1]);
+      if (!image) return send(res, 404, { error: 'no image' });
+      res.writeHead(200, {
+        'Content-Type': image.type,
+        'Content-Length': image.body.length,
+        'Cache-Control': 'public, max-age=31536000, immutable', // URL carries ?v=<version>
+        'Access-Control-Allow-Origin': CORS_ORIGIN,
+      });
+      return res.end(image.body);
+    }
+    if (img && (req.method === 'PUT' || req.method === 'DELETE')) {
+      if (!authorized(req)) return send(res, 401, { error: 'unauthorized' });
+      if (req.method === 'DELETE') { await deleteImage(db, img[1]); return send(res, 200, { ok: true }); }
+      const r = await setImage(db, img[1], (await readJson(req)).image);
+      if (!r.ok) return send(res, 400, { error: r.error });
+      return send(res, 200, { ok: true, image: `/api/products/${encodeURIComponent(img[1])}/image?v=${r.ver}` });
+    }
 
     if (req.method === 'POST' && path === '/api/prices') {
       if (!authorized(req)) return send(res, 401, { error: 'unauthorized' });

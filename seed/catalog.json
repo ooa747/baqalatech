@@ -1,0 +1,921 @@
+{
+  "updatedAt": "2026-11-20",
+  "currency": "ر.س",
+  "note": "أسعار حقيقية من المتاجر الإلكترونية — قد تختلف حسب الفرع والمدينة",
+  "stores": [
+    {
+      "id": "panda",
+      "name": "بنده",
+      "color": "#E07A5F",
+      "website": "https://www.panda.sa"
+    },
+    {
+      "id": "carrefour",
+      "name": "كارفور",
+      "color": "#3D7EA6",
+      "website": "https://www.carrefourksa.com"
+    },
+    {
+      "id": "danube",
+      "name": "الدانوب",
+      "color": "#C9A227",
+      "website": "https://www.danube.sa",
+      "branch": "جدة"
+    },
+    {
+      "id": "lulu",
+      "name": "لولو",
+      "color": "#B5485D",
+      "website": "https://gcc.luluhypermarket.com/ar-sa",
+      "branch": "الخبر"
+    },
+    {
+      "id": "tamimi",
+      "name": "التميمي",
+      "color": "#5B8C5A",
+      "website": "https://www.tamimimarkets.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "water",
+      "name": "مياه",
+      "emoji": "💧",
+      "shape": "bottles",
+      "packType": "كرتون"
+    },
+    {
+      "id": "dairy",
+      "name": "ألبان",
+      "emoji": "🥛",
+      "shape": "carton",
+      "packType": "عبوة"
+    },
+    {
+      "id": "rice",
+      "name": "أرز",
+      "emoji": "🍚",
+      "shape": "bag",
+      "packType": "كيس"
+    },
+    {
+      "id": "oil",
+      "name": "زيوت",
+      "emoji": "🫒",
+      "shape": "jug",
+      "packType": "عبوة"
+    },
+    {
+      "id": "sugar",
+      "name": "سكر",
+      "emoji": "🧂",
+      "shape": "bag",
+      "packType": "كيس"
+    },
+    {
+      "id": "tea",
+      "name": "شاي وقهوة",
+      "emoji": "☕",
+      "shape": "box",
+      "packType": "علبة"
+    }
+  ],
+  "products": [
+    {
+      "id": "nova-40x330",
+      "name": "مياه نوفا",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 40,
+        "size": 330,
+        "unit": "مل"
+      },
+      "color": "#4FA3D9",
+      "prices": {
+        "carrefour": {
+          "price": 20.99,
+          "old": 22.75,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 22,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 23.15,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 22.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 18.75,
+          "checked": "2026-11-20",
+          "old": 21.95
+        }
+      }
+    },
+    {
+      "id": "berain-40x330",
+      "name": "مياه بيرين",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 40,
+        "size": 330,
+        "unit": "مل"
+      },
+      "color": "#2E86AB",
+      "prices": {
+        "carrefour": {
+          "price": 23,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 22,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 15,
+          "checked": "2026-11-20",
+          "old": 22
+        },
+        "tamimi": {
+          "price": 19.75,
+          "checked": "2026-11-20",
+          "old": 22.95
+        }
+      }
+    },
+    {
+      "id": "nestle-40x330",
+      "name": "نستله بيور لايف",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 40,
+        "size": 330,
+        "unit": "مل"
+      },
+      "color": "#4C9BE8",
+      "prices": {
+        "carrefour": {
+          "price": 12.99,
+          "old": 23.5,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 15.5,
+          "checked": "2026-11-20",
+          "old": 22.5
+        },
+        "tamimi": {
+          "price": 14.99,
+          "checked": "2026-11-20",
+          "old": 21.95
+        }
+      }
+    },
+    {
+      "id": "tania-40x330",
+      "name": "مياه تانيا",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 40,
+        "size": 330,
+        "unit": "مل"
+      },
+      "color": "#6CB4C9",
+      "prices": {
+        "lulu": {
+          "price": 15.45,
+          "old": 22.4,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 13.99,
+          "checked": "2026-11-20",
+          "old": 20.99
+        }
+      }
+    },
+    {
+      "id": "aquafina-48x200",
+      "name": "مياه أكوافينا",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 48,
+        "size": 200,
+        "unit": "مل"
+      },
+      "color": "#5C7FC2",
+      "prices": {
+        "carrefour": {
+          "price": 14.99,
+          "old": 16.99,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 13.99,
+          "checked": "2026-11-20",
+          "old": 19.99
+        }
+      }
+    },
+    {
+      "id": "berain-48x200",
+      "name": "مياه بيرين",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 48,
+        "size": 200,
+        "unit": "مل"
+      },
+      "color": "#2E86AB",
+      "prices": {
+        "carrefour": {
+          "price": 22.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 15.5,
+          "old": 22,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 22.99,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nova-6x1500",
+      "name": "مياه نوفا",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 6,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#4FA3D9",
+      "prices": {
+        "carrefour": {
+          "price": 10,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 6.99,
+          "old": 9.95,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 8.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 9.5,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "berain-6x1500",
+      "name": "مياه بيرين",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 6,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#2E86AB",
+      "prices": {
+        "carrefour": {
+          "price": 9.95,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 9.25,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 9.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 9.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nestle-6x1500",
+      "name": "نستله بيور لايف",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 6,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#4C9BE8",
+      "prices": {
+        "carrefour": {
+          "price": 9.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 9.95,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 10.25,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 9.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 9.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "aquafina-6x1500",
+      "name": "مياه أكوافينا",
+      "category": "water",
+      "tags": [
+        "موية",
+        "ماء"
+      ],
+      "pack": {
+        "count": 6,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#5C7FC2",
+      "prices": {
+        "carrefour": {
+          "price": 7.99,
+          "old": 8.5,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 4.99,
+          "old": 8.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 5.99,
+          "checked": "2026-11-20",
+          "old": 8.5
+        }
+      }
+    },
+    {
+      "id": "almarai-milk-2l",
+      "name": "حليب المراعي طازج كامل الدسم",
+      "category": "dairy",
+      "tags": [
+        "حليب"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "لتر"
+      },
+      "color": "#3A86C8",
+      "prices": {
+        "carrefour": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "almarai-laban-2l",
+      "name": "لبن المراعي طازج كامل الدسم",
+      "category": "dairy",
+      "tags": [
+        "لبن",
+        "روب"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "لتر"
+      },
+      "color": "#4E9E6A",
+      "prices": {
+        "carrefour": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 12.5,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nadec-uht-18x200",
+      "name": "حليب نادك طويل الأجل كامل الدسم",
+      "category": "dairy",
+      "packType": "كرتون",
+      "tags": [
+        "حليب"
+      ],
+      "pack": {
+        "count": 18,
+        "size": 200,
+        "unit": "مل"
+      },
+      "color": "#D2544F",
+      "prices": {
+        "carrefour": {
+          "price": 34.99,
+          "old": 38,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 30.9,
+          "old": 37,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "abukass-sella-10kg",
+      "name": "أرز أبو كاس مزة بسمتي",
+      "category": "rice",
+      "tags": [
+        "رز",
+        "سيلا"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#C0392B",
+      "prices": {
+        "carrefour": {
+          "price": 70.99,
+          "old": 98,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 69.99,
+          "old": 91.95,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 77.99,
+          "checked": "2026-11-20",
+          "old": 95.99
+        },
+        "tamimi": {
+          "price": 91.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "abukass-sella-5kg",
+      "name": "أرز أبو كاس مزة بسمتي",
+      "category": "rice",
+      "tags": [
+        "رز",
+        "سيلا"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#C0392B",
+      "prices": {
+        "carrefour": {
+          "price": 47.5,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 48.35,
+          "old": 51.45,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 50.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 43.99,
+          "checked": "2026-11-20",
+          "old": 47.95
+        }
+      }
+    },
+    {
+      "id": "abukass-amber-10kg",
+      "name": "أرز أبو كاس بسمتي أبيض عنبر",
+      "category": "rice",
+      "tags": [
+        "رز",
+        "بنجابي"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#A93226",
+      "prices": {
+        "carrefour": {
+          "price": 84.49,
+          "old": 89.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 89.95,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 88.05,
+          "old": 97.35,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 91.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 73.99,
+          "checked": "2026-11-20",
+          "old": 94.95
+        }
+      }
+    },
+    {
+      "id": "walimah-sella-10kg",
+      "name": "أرز الوليمة مزة بسمتي",
+      "category": "rice",
+      "tags": [
+        "رز",
+        "سيلا"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#2F8F5B",
+      "prices": {
+        "carrefour": {
+          "price": 91.99,
+          "old": 98.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 73.99,
+          "old": 98.95,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 102,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 101.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 86.99,
+          "checked": "2026-11-20",
+          "old": 98.95
+        }
+      }
+    },
+    {
+      "id": "afia-corn-2.9l",
+      "name": "زيت عافية ذرة",
+      "category": "oil",
+      "tags": [
+        "زيت"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2.9,
+        "unit": "لتر"
+      },
+      "color": "#D99A00",
+      "prices": {
+        "carrefour": {
+          "price": 54.75,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 56.6,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 55.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 39.99,
+          "checked": "2026-11-20",
+          "old": 50.95
+        }
+      }
+    },
+    {
+      "id": "afia-sunflower-2.9l",
+      "name": "زيت عافية دوار الشمس",
+      "category": "oil",
+      "tags": [
+        "زيت"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2.9,
+        "unit": "لتر"
+      },
+      "color": "#E8B32A",
+      "prices": {
+        "carrefour": {
+          "price": 43.99,
+          "old": 46.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 45.85,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 47.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 36.99,
+          "checked": "2026-11-20",
+          "old": 49.5
+        }
+      }
+    },
+    {
+      "id": "afia-corn-1.5l",
+      "name": "زيت عافية ذرة",
+      "category": "oil",
+      "tags": [
+        "زيت"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D99A00",
+      "prices": {
+        "lulu": {
+          "price": 29.35,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 33.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 29.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "afia-sunflower-1.5l",
+      "name": "زيت عافية دوار الشمس",
+      "category": "oil",
+      "tags": [
+        "زيت"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#E8B32A",
+      "prices": {
+        "carrefour": {
+          "price": 25.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 28.8,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 29.5,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "usra-sugar-5kg",
+      "name": "سكر الأسرة ناعم",
+      "category": "sugar",
+      "tags": [
+        "سكر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#3B6FB6",
+      "prices": {
+        "carrefour": {
+          "price": 22.75,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 24.99,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 21.6,
+          "old": 24.65,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 15,
+          "checked": "2026-11-20",
+          "old": 25.99
+        },
+        "tamimi": {
+          "price": 24.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "usra-sugar-10kg",
+      "name": "سكر الأسرة ناعم",
+      "category": "sugar",
+      "tags": [
+        "سكر"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#3B6FB6",
+      "prices": {
+        "carrefour": {
+          "price": 47.25,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 44.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 27.99,
+          "checked": "2026-11-20",
+          "old": 44.95
+        }
+      }
+    },
+    {
+      "id": "lipton-yellow-100",
+      "name": "شاي ليبتون العلامة الصفراء",
+      "category": "tea",
+      "tags": [
+        "شاي",
+        "اكياس"
+      ],
+      "pack": {
+        "count": 100,
+        "unit": "كيس"
+      },
+      "color": "#E0A800",
+      "prices": {
+        "carrefour": {
+          "price": 22.5,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 22.6,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 21.5,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 21.95,
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "nescafe-classic-190g",
+      "name": "نسكافيه كلاسيك",
+      "category": "tea",
+      "shape": "jar",
+      "packType": "برطمان",
+      "tags": [
+        "قهوة",
+        "قهوه"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 190,
+        "unit": "جم"
+      },
+      "color": "#8B4A2B",
+      "prices": {
+        "carrefour": {
+          "price": 31.99,
+          "old": 34.99,
+          "checked": "2026-11-20"
+        },
+        "danube": {
+          "price": 35.95,
+          "checked": "2026-11-20"
+        },
+        "lulu": {
+          "price": 26.99,
+          "old": 34.95,
+          "checked": "2026-11-20"
+        },
+        "panda": {
+          "price": 31.99,
+          "checked": "2026-11-20"
+        },
+        "tamimi": {
+          "price": 34.95,
+          "checked": "2026-11-20"
+        }
+      }
+    }
+  ]
+}

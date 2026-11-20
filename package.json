@@ -1,0 +1,13 @@
+{
+  "name": "baqalatech-db",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Prices database service: SQLite + HTTP API",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "seed": "node --env-file-if-exists=.env seed.mjs",
+    "set-price": "node --env-file-if-exists=.env set-price.mjs"
+  }
+}

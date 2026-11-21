@@ -2780,6 +2780,2147 @@
           "old": 33.5
         }
       }
+    },
+    {
+      "id": "sunwhite-calrose-5kg",
+      "name": "أرز صن وايت كالروز",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Sunwhite Calrose Rice 5kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 44.99,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 52.95
+        }
+      }
+    },
+    {
+      "id": "sabha-steam-basmati-10kg",
+      "name": "أرز سبحة بسمتي بخار",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Sabha Steam Basmati Rice 10kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 65.99,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 89.95
+        }
+      }
+    },
+    {
+      "id": "sunwhite-calrose-1kg",
+      "name": "أرز صن وايت كالروز",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Sunwhite Calrose Rice 1kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 10.5,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 12.95
+        }
+      }
+    },
+    {
+      "id": "white-swan-calrose-1kg",
+      "name": "أرز وايت سوان كالروز",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "White Swan Calrose Rice 1kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 8.99,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 9.95
+        }
+      }
+    },
+    {
+      "id": "aba-extra-long-basmati-5kg",
+      "name": "أرز آبا بسمتي حبة طويلة جداً",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Aba Extra Long Basmati Rice 5kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 33.5,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 49.95
+        }
+      }
+    },
+    {
+      "id": "walimah-sella-5kg",
+      "name": "أرز الوليمة مزة بسمتي",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Al Walimah Sella Basmati Rice 5kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 43.5,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 51.5
+        }
+      }
+    },
+    {
+      "id": "aba-sella-basmati-5kg",
+      "name": "أرز آبا بسمتي مزة طويل الحبة",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Aba Long Basmati Sella Rice 5kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 33.5,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 49.95
+        }
+      }
+    },
+    {
+      "id": "tamimi-white-basmati-10kg",
+      "name": "أرز التميمي بسمتي هندي أبيض طويل الحبة",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Tamimi Markets Since 1979 White Indian Basmati Rice Long Grain 10kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 69.99,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 89.95
+        }
+      }
+    },
+    {
+      "id": "punjabi-muhaidib-white-10kg",
+      "name": "أرز بنجابي المهيدب بسمتي أبيض",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Punjabi Al Muhaidib White Basmati Rice 10kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 83.99,
+          "checked": "2026-11-21T08:58:21.949Z",
+          "old": 106.95
+        }
+      }
+    },
+    {
+      "id": "shalan-punjabi-white-5kg",
+      "name": "أرز الشعلان بنجابي بسمتي أبيض",
+      "category": "rice",
+      "shape": "bag",
+      "tags": [
+        "Al Shalan Punjabi White Basmati Rice 5kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#C9A227",
+      "prices": {
+        "tamimi": {
+          "price": 47.95,
+          "checked": "2026-11-21T08:58:21.949Z"
+        }
+      }
+    },
+    {
+      "id": "tamimi-sunflower-1.5l",
+      "name": "زيت التميمي دوار الشمس النقي",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Tamimi Markets Since 1979 Pure Sunflower Oil 1.5L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 19.99,
+          "checked": "2026-11-21T08:58:22.170Z",
+          "old": 22.95
+        }
+      }
+    },
+    {
+      "id": "olite-canola-2x1.5l",
+      "name": "زيت أوليت كانولا",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Olite Canola Oil 2 x 1.5L"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 48.95,
+          "checked": "2026-11-21T08:58:22.170Z"
+        }
+      }
+    },
+    {
+      "id": "nakheel-vegetable-1.5l",
+      "name": "زيت نخيل نباتي نقي",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Nakheel Pure Vegetable Oil 1.5L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 16.99,
+          "checked": "2026-11-21T08:58:22.170Z",
+          "old": 20.5
+        }
+      }
+    },
+    {
+      "id": "afia-sunflower-2x1.5l",
+      "name": "زيت عافية دوار الشمس النقي",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Afia Pure Sunflower Oil 2 x 1.5L"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 52.5,
+          "checked": "2026-11-21T08:58:22.170Z"
+        }
+      }
+    },
+    {
+      "id": "tamimi-corn-1.5l",
+      "name": "زيت التميمي ذرة نقي",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Tamimi Markets Since 1979 Pure Corn Oil 1.5L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 18.99,
+          "checked": "2026-11-21T08:58:22.170Z",
+          "old": 26.95
+        }
+      }
+    },
+    {
+      "id": "afia-corn-plus-2x1.5l",
+      "name": "زيت عافية ذرة بلس عبوتان",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Afia Corn Oil Plus Twin Promo Pack 2 x 1.5L"
+      ],
+      "pack": {
+        "count": 2,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 36.99,
+          "checked": "2026-11-21T08:58:22.170Z",
+          "old": 51.95
+        }
+      }
+    },
+    {
+      "id": "shams-sunflower-2.9l",
+      "name": "زيت شمس دوار الشمس",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Shams Sunflower Oil 2.9L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2.9,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 31.99,
+          "checked": "2026-11-21T08:58:22.170Z",
+          "old": 41.95
+        }
+      }
+    },
+    {
+      "id": "sunar-corn-3l",
+      "name": "زيت سونار ذرة",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Sunar Corn Oil 3L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 3,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 26,
+          "checked": "2026-11-21T08:58:22.170Z",
+          "old": 48.95
+        }
+      }
+    },
+    {
+      "id": "afia-corn-750ml",
+      "name": "زيت عافية ذرة نقي",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Afia Pure Corn Oil 750ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 750,
+        "unit": "مل"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 17.95,
+          "checked": "2026-11-21T08:58:22.170Z"
+        }
+      }
+    },
+    {
+      "id": "halah-sunflower-1.5l",
+      "name": "زيت هالة دوار الشمس النقي",
+      "category": "oil",
+      "shape": "jug",
+      "tags": [
+        "Halah Pure Sunflower Oil 1.5L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.5,
+        "unit": "لتر"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 16.99,
+          "checked": "2026-11-21T08:58:22.170Z",
+          "old": 20.95
+        }
+      }
+    },
+    {
+      "id": "usra-sugar-1kg",
+      "name": "سكر الأسرة ناعم",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Alosra Fine Sugar 1kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 5.5,
+          "checked": "2026-11-21T08:58:26.222Z"
+        }
+      }
+    },
+    {
+      "id": "tamimi-white-sugar-2kg",
+      "name": "سكر التميمي أبيض",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Tamimi Markets Since 1979 White Sugar 2kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 9.95,
+          "checked": "2026-11-21T08:58:26.222Z"
+        }
+      }
+    },
+    {
+      "id": "tamimi-white-sugar-1kg",
+      "name": "سكر التميمي أبيض",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Tamimi Markets Since 1979 White Sugar 1kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 4.95,
+          "checked": "2026-11-21T08:58:26.222Z"
+        }
+      }
+    },
+    {
+      "id": "usra-coarse-sugar-10kg",
+      "name": "سكر الأسرة خشن",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Alosra Coarse Sugar 10kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 10,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 27.99,
+          "checked": "2026-11-21T08:58:26.222Z",
+          "old": 44.95
+        }
+      }
+    },
+    {
+      "id": "tamimi-brown-sugar-2kg",
+      "name": "سكر التميمي بني",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Tamimi Markets Since 1979 Brown Sugar 2kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 17.99,
+          "checked": "2026-11-21T08:58:26.222Z",
+          "old": 19.95
+        }
+      }
+    },
+    {
+      "id": "tamimi-icing-sugar-500g",
+      "name": "سكر التميمي بودرة",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Tamimi Markets Since 1979 Icing Sugar 500g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 4.99,
+          "checked": "2026-11-21T08:58:26.222Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "sis-fine-sugar-2kg",
+      "name": "سكر سيس ناعم الحبيبات",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Sis Fine Grain Sugar 2kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 12.99,
+          "checked": "2026-11-21T08:58:26.222Z",
+          "old": 16.5
+        }
+      }
+    },
+    {
+      "id": "usra-coarse-sugar-5kg",
+      "name": "سكر الأسرة خشن",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Alosra Coarse Sugar 5kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 24.95,
+          "checked": "2026-11-21T08:58:26.222Z"
+        }
+      }
+    },
+    {
+      "id": "tamimi-white-sugar-5kg",
+      "name": "سكر التميمي أبيض",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Tamimi Markets Since 1979 White Sugar 5kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 5,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 22.95,
+          "checked": "2026-11-21T08:58:26.222Z"
+        }
+      }
+    },
+    {
+      "id": "albayt-white-sugar-1kg",
+      "name": "سكر البيت أبيض ناعم",
+      "category": "sugar",
+      "shape": "bag",
+      "tags": [
+        "Al Bayt Fine White Sugar 1kg"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "كجم"
+      },
+      "color": "#86A9C2",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:26.222Z"
+        }
+      }
+    },
+    {
+      "id": "rabea-express-100",
+      "name": "شاي ربيع إكسبريس أكياس",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Rabea Express Tea Bags 100 x 2g"
+      ],
+      "pack": {
+        "count": 100,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 9.99,
+          "checked": "2026-11-21T08:58:26.702Z",
+          "old": 18.25
+        }
+      }
+    },
+    {
+      "id": "lipton-earl-grey-50",
+      "name": "شاي ليبتون إيرل غراي أكياس مغلفة",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Lipton 50 Tea Bags Earl Grey Enveloped 1.5g"
+      ],
+      "pack": {
+        "count": 50,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 21.95,
+          "checked": "2026-11-21T08:58:26.702Z"
+        }
+      }
+    },
+    {
+      "id": "alrabie-extra-strong-tea-100",
+      "name": "شاي الربيع إكسترا سترونج أكياس",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Al Rabie Extra Strong Tea Bags 100 x 2g"
+      ],
+      "pack": {
+        "count": 100,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 16.5,
+          "checked": "2026-11-21T08:58:26.702Z"
+        }
+      }
+    },
+    {
+      "id": "alwazah-black-tea-110",
+      "name": "شاي الوزة أسود أكياس",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Al Wazah Black Tea Bags 110 x 2g"
+      ],
+      "pack": {
+        "count": 110,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 16.95,
+          "checked": "2026-11-21T08:58:26.702Z"
+        }
+      }
+    },
+    {
+      "id": "dilmah-ceylon-200g",
+      "name": "شاي ديلما سيلاني فاخر",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Dilmah Finest Ceylon Tea 200g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "جم"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 24.99,
+          "checked": "2026-11-21T08:58:26.702Z",
+          "old": 37.75
+        }
+      }
+    },
+    {
+      "id": "brooke-bond-loose-tea-400g",
+      "name": "شاي بروك بوند فرط",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Brooke Bond Loose Tea 400g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 15.99,
+          "checked": "2026-11-21T08:58:26.702Z",
+          "old": 21.95
+        }
+      }
+    },
+    {
+      "id": "dilmah-ceylon-gold-25",
+      "name": "شاي ديلما سيلان جولد أكياس",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Dilmah Ceylon Gold Tea Bags 25 x 2g"
+      ],
+      "pack": {
+        "count": 25,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 9.95,
+          "checked": "2026-11-21T08:58:26.702Z"
+        }
+      }
+    },
+    {
+      "id": "dilmah-english-breakfast-100",
+      "name": "شاي ديلما إنجليش بريكفاست أكياس",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Dilmah English Breakfast Tea 100 x 2g"
+      ],
+      "pack": {
+        "count": 100,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 72.95,
+          "checked": "2026-11-21T08:58:26.702Z"
+        }
+      }
+    },
+    {
+      "id": "lipton-extra-strong-100",
+      "name": "شاي ليبتون أسود إكسترا سترونج أكياس",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Lipton Extra Strong Black Tea 100 tea bags x 2.2g"
+      ],
+      "pack": {
+        "count": 100,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 17.95,
+          "checked": "2026-11-21T08:58:26.702Z"
+        }
+      }
+    },
+    {
+      "id": "alkbous-black-tea-100",
+      "name": "شاي الكبوس أسود أكياس",
+      "category": "tea",
+      "shape": "box",
+      "tags": [
+        "Al Kbous Black Tea Bags 100 bags"
+      ],
+      "pack": {
+        "count": 100,
+        "unit": "كيس"
+      },
+      "color": "#A77345",
+      "prices": {
+        "tamimi": {
+          "price": 17.95,
+          "checked": "2026-11-21T08:58:26.702Z"
+        }
+      }
+    },
+    {
+      "id": "westminster-cheddar-200g",
+      "name": "جبنة وستمنستر شيدر",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Uk Westminster Cheddar Cheese 200g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 15.79,
+          "checked": "2026-11-21T08:58:30.567Z"
+        }
+      }
+    },
+    {
+      "id": "tamimi-halloumi-250g",
+      "name": "جبنة التميمي حلوم",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Tamimi Markets Since 1979 Halloumi Cheese 250g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 250,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 9.99,
+          "checked": "2026-11-21T08:58:30.567Z",
+          "old": 14.95
+        }
+      }
+    },
+    {
+      "id": "tamimi-shredded-mixed-cheese-100g",
+      "name": "جبنة التميمي مشكلة مبشورة",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Tamimi Markets Shredded Mixed Cheese 100g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 100,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 5,
+          "checked": "2026-11-21T08:58:30.567Z"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-cream-cheese-180g",
+      "name": "جبنة فيلادلفيا كريمية أصلية قابلة للدهن",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Philadelphia Regular Cream Cheese Spread 180g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 180,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 18.5,
+          "checked": "2026-11-21T08:58:30.567Z"
+        }
+      }
+    },
+    {
+      "id": "puck-jalapeno-cheese-150g",
+      "name": "جبنة بوك بالهالبينو",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Puck Cheese Jalapeno 150g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 150,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 16.95,
+          "checked": "2026-11-21T08:58:30.567Z"
+        }
+      }
+    },
+    {
+      "id": "avonmore-mild-red-cheddar-200g",
+      "name": "جبنة أفونمور شيدر حمراء خفيفة",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Ireland Avonmore Mild Red Cheddar Cheese 200g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 14.79,
+          "checked": "2026-11-21T08:58:30.567Z"
+        }
+      }
+    },
+    {
+      "id": "three-cows-mozzarella-900g",
+      "name": "بديل جبنة البقرات الثلاث موزاريلا مبشورة",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "The Three Cows Shredded Mozzarella Cheese Analogue 900g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 900,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 29.99,
+          "checked": "2026-11-21T08:58:30.567Z",
+          "old": 43.95
+        }
+      }
+    },
+    {
+      "id": "huizer-kaas-edam-200g",
+      "name": "جبنة هويزر كاس إيدام",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Holland Huizer Kaas Edam Loaf Cheese 200g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 8.8,
+          "checked": "2026-11-21T08:58:30.567Z",
+          "old": 12.19
+        }
+      }
+    },
+    {
+      "id": "huizer-emmental-200g",
+      "name": "جبنة هويزر إمنتال",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Holland Huizer Emmental Loaf Cheese 200g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 13.59,
+          "checked": "2026-11-21T08:58:30.567Z"
+        }
+      }
+    },
+    {
+      "id": "zena-romy-cheese-200g",
+      "name": "جبنة زينة رومي",
+      "category": "dairy",
+      "shape": "box",
+      "tags": [
+        "Egypt Zena Romy Cheese 200g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "جم"
+      },
+      "color": "#E9B44C",
+      "prices": {
+        "tamimi": {
+          "price": 10.99,
+          "checked": "2026-11-21T08:58:30.567Z"
+        }
+      }
+    },
+    {
+      "id": "goody-tuna-brine-95g",
+      "name": "تونة قودي لحم خفيف في محلول ملحي",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Goody Lite Meat Tuna In Brine 95g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 95,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 5.95,
+          "checked": "2026-11-21T08:58:30.798Z"
+        }
+      }
+    },
+    {
+      "id": "hanaa-light-tuna-95g",
+      "name": "تونة هناء لحم خفيف",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Hanaa Light Meat Tuna 95g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 95,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 4.25,
+          "checked": "2026-11-21T08:58:30.798Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "plyms-tuna-sunflower-170g",
+      "name": "تونة بليمز لحم خفيف بزيت دوار الشمس",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Plyms Light Meat Tuna In Sunflower Oil 170g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 170,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 6.25,
+          "checked": "2026-11-21T08:58:30.798Z",
+          "old": 10.5
+        }
+      }
+    },
+    {
+      "id": "botan-light-tuna-185g",
+      "name": "تونة بوتان لحم خفيف",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Botan Light Meat Tuna 185g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 185,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 9.95,
+          "checked": "2026-11-21T08:58:30.798Z"
+        }
+      }
+    },
+    {
+      "id": "aloha-tuna-vegetable-185g",
+      "name": "تونة ألوها لحم خفيف بزيت نباتي",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Aloha Light Meat Tuna In Vegetable Oil 185g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 185,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 7.25,
+          "checked": "2026-11-21T08:58:30.798Z",
+          "old": 8.95
+        }
+      }
+    },
+    {
+      "id": "alkhair-tuna-sunflower-95g",
+      "name": "تونة الخير بزيت دوار الشمس",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Al Khair Tuna In Sunflower Oil 95g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 95,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 6.5,
+          "checked": "2026-11-21T08:58:30.798Z"
+        }
+      }
+    },
+    {
+      "id": "goody-tenderina-sandwich-185g",
+      "name": "تونة قودي تندرينا للسندويشات",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Goody Tenderina Sandwich Tuna 185g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 185,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 6.99,
+          "checked": "2026-11-21T08:58:30.798Z",
+          "old": 10.5
+        }
+      }
+    },
+    {
+      "id": "goody-tuna-chilli-185g",
+      "name": "تونة قودي لحم خفيف بالفلفل الحار",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Goody Light Meat Tuna With Chilli 185g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 185,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 6.99,
+          "checked": "2026-11-21T08:58:30.798Z",
+          "old": 9.95
+        }
+      }
+    },
+    {
+      "id": "goody-tuna-brine-185g",
+      "name": "تونة قودي لحم خفيف في محلول ملحي",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Goody Light Meat Tuna In Brine 185g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 185,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 6.99,
+          "checked": "2026-11-21T08:58:30.798Z",
+          "old": 9.95
+        }
+      }
+    },
+    {
+      "id": "california-garden-tuna-160g",
+      "name": "تونة حدائق كاليفورنيا قطع خفيفة بزيت نباتي",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "California Garden Light Chunks Tuna In Vegetable Oil 160g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 160,
+        "unit": "جم"
+      },
+      "color": "#458BB5",
+      "prices": {
+        "tamimi": {
+          "price": 8.5,
+          "checked": "2026-11-21T08:58:30.798Z"
+        }
+      }
+    },
+    {
+      "id": "heinz-baked-beans-snap-pots-800g",
+      "name": "فاصوليا هاينز مطبوخة سناب بوتس",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Heinz Baked Beans Snap Pots 800g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 800,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 33.95,
+          "checked": "2026-11-21T08:58:31.160Z"
+        }
+      }
+    },
+    {
+      "id": "luna-red-kidney-beans-400g",
+      "name": "فاصوليا لونا حمراء",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Luna Red Kidney Beans 400g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 4.25,
+          "checked": "2026-11-21T08:58:31.160Z",
+          "old": 5.75
+        }
+      }
+    },
+    {
+      "id": "luna-baked-beans-400g",
+      "name": "فاصوليا لونا مطبوخة",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Luna Baked Beans 400g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:31.160Z"
+        }
+      }
+    },
+    {
+      "id": "orient-gardens-red-kidney-beans-439g",
+      "name": "فاصوليا أورينت جاردنز حمراء",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Orient Gardens Red Kidney Beans 439g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 439,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 5.25,
+          "checked": "2026-11-21T08:58:31.160Z",
+          "old": 7.25
+        }
+      }
+    },
+    {
+      "id": "tamimi-white-kidney-beans-500g",
+      "name": "فاصوليا التميمي بيضاء",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Tamimi Markets Since 1979 White Kidney Beans 500g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 5.99,
+          "checked": "2026-11-21T08:58:31.160Z",
+          "old": 7.95
+        }
+      }
+    },
+    {
+      "id": "heinz-baked-beans-415g",
+      "name": "فاصوليا هاينز مطبوخة",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Heinz Baked Beans 415g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 415,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 16.95,
+          "checked": "2026-11-21T08:58:31.160Z"
+        }
+      }
+    },
+    {
+      "id": "luna-white-beans-400g",
+      "name": "فاصوليا لونا بيضاء",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Luna White Beans 400g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:31.160Z"
+        }
+      }
+    },
+    {
+      "id": "old-el-paso-black-refried-beans-454g",
+      "name": "فاصوليا أولد إل باسو سوداء مهروسة",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Old El Paso Black Bean Refried Beans 454g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 454,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 12.95,
+          "checked": "2026-11-21T08:58:31.160Z"
+        }
+      }
+    },
+    {
+      "id": "freshly-dark-red-beans-425g",
+      "name": "فاصوليا فرشلي حمراء داكنة",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "Freshly Dark Red Kidney Beans 425g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 425,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 10.5,
+          "checked": "2026-11-21T08:58:31.160Z"
+        }
+      }
+    },
+    {
+      "id": "california-garden-baked-beans-420g",
+      "name": "فاصوليا حدائق كاليفورنيا مطبوخة جاهزة للأكل",
+      "category": "pantry",
+      "shape": "cans",
+      "tags": [
+        "California Garden Baked Beans Ready To Eat 420g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 420,
+        "unit": "جم"
+      },
+      "color": "#B46144",
+      "prices": {
+        "tamimi": {
+          "price": 3.9,
+          "checked": "2026-11-21T08:58:31.160Z",
+          "old": 5.5
+        }
+      }
+    },
+    {
+      "id": "goody-fusilli-36-450g",
+      "name": "مكرونة قودي فوسيلي رقم 36",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Goody Pasta Fusilli No. 36 450g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 450,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "perfetto-penne-lisce-211-500g",
+      "name": "مكرونة بيرفيتو بيني ليسي رقم 211",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Perfetto Pasta Penne Lisce No. 211 500g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 5.75,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.75
+        }
+      }
+    },
+    {
+      "id": "goody-fettuccine-450g",
+      "name": "مكرونة قودي فيتوتشيني",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Goody Pasta Fettuccine 450g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 450,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "goody-ditalini-rigate-10-450g",
+      "name": "مكرونة قودي ديتاليني ريجاتي رقم 10",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Goody Pasta Ditalini Rigate No. 10 450g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 450,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "perfetto-fischioni-rigati-216-500g",
+      "name": "مكرونة بيرفيتو فيشيوني ريجاتي رقم 216",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Perfetto Pasta Fischioni Rigati No. 216 500g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 5.75,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.75
+        }
+      }
+    },
+    {
+      "id": "tamimi-lasagne-400g",
+      "name": "مكرونة التميمي لازانيا فاخرة",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Tamimi Markets Since 1979 Premium Lasagne Pasta 400g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 400,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 2.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 5.95
+        }
+      }
+    },
+    {
+      "id": "goody-spaghetti-450g",
+      "name": "مكرونة قودي سباغيتي",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Goody Pasta Spaghetti 450g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 450,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "goody-ditalini-lisce-14-450g",
+      "name": "مكرونة قودي ديتاليني ليسي رقم 14",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Goody Pasta Ditalini Lisce No. 14 450g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 450,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "goody-elbow-19-450g",
+      "name": "مكرونة قودي أكواع رقم 19",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Goody Pasta Elbow No. 19 450g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 450,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "goody-conchiglie-18-450g",
+      "name": "مكرونة قودي أصداف رقم 18",
+      "category": "pantry",
+      "shape": "pack",
+      "tags": [
+        "Goody Pasta Conchiglie No. 18 450g"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 450,
+        "unit": "جم"
+      },
+      "color": "#D6AB36",
+      "prices": {
+        "tamimi": {
+          "price": 4.5,
+          "checked": "2026-11-21T08:58:22.178Z",
+          "old": 6.95
+        }
+      }
+    },
+    {
+      "id": "almarai-milk-2.85l",
+      "name": "حليب المراعي طازج كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Almarai Fresh Milk Full Fat 2.85L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2.85,
+        "unit": "لتر"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 16.5,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-milk-lowfat-1l",
+      "name": "حليب المراعي طازج قليل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Almarai Milk Fresh Low Fat 1L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 7,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-milk-lowfat-2l",
+      "name": "حليب المراعي طازج قليل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Almarai Fresh Milk Low Fat 2L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2,
+        "unit": "لتر"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 12.5,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-milk-1.4l",
+      "name": "حليب المراعي طازج كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Almarai Fresh Milk Full Fat 1.4L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.4,
+        "unit": "لتر"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 9,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "nadec-milk-800ml",
+      "name": "حليب نادك طازج كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Nadec Milk Fresh Full Fat 800ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 800,
+        "unit": "مل"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 6,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "nadec-milk-1.75l",
+      "name": "حليب نادك طازج كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Nadec Fresh Milk Full Fat 1.75L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.75,
+        "unit": "لتر"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 11,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "nadec-milk-200ml",
+      "name": "حليب نادك طازج كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Nadec Milk Fresh Full Fat 200ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 200,
+        "unit": "مل"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 2,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-milk-500ml",
+      "name": "حليب المراعي طازج كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Almarai Milk Fresh Full Fat 500ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 500,
+        "unit": "مل"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 4,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "alsafi-milk-2.9l",
+      "name": "حليب الصافي طازج كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Al Safi Milk Full Fat Fresh 2.9L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 2.9,
+        "unit": "لتر"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 16.5,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "alsafi-milk-1.2l",
+      "name": "حليب الصافي كامل الدسم",
+      "category": "dairy",
+      "shape": "carton",
+      "tags": [
+        "Al Safi Milk Full Fat 1.2L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.2,
+        "unit": "لتر"
+      },
+      "color": "#438CCB",
+      "prices": {
+        "tamimi": {
+          "price": 8,
+          "checked": "2026-11-21T08:58:35.146Z"
+        }
+      }
+    },
+    {
+      "id": "danya-red-grape-1l",
+      "name": "عصير دانيا عنب أحمر طويل الأجل",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Danya UHT Red Grape Juice 1L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1,
+        "unit": "لتر"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 14.95,
+          "checked": "2026-11-21T08:58:34.838Z"
+        }
+      }
+    },
+    {
+      "id": "suntop-orange-125ml",
+      "name": "عصير سن توب برتقال",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Suntop Orange Juice 125ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 125,
+        "unit": "مل"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 1.25,
+          "checked": "2026-11-21T08:58:34.838Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-uht-orange-140ml",
+      "name": "عصير المراعي برتقال طويل الأجل",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Almarai UHT Orange Juice 140ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 140,
+        "unit": "مل"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 1.5,
+          "checked": "2026-11-21T08:58:34.838Z"
+        }
+      }
+    },
+    {
+      "id": "kdd-uht-apple-180ml",
+      "name": "عصير كي دي دي تفاح طويل الأجل",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Kdd UHT Apple Juice 180ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 180,
+        "unit": "مل"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 1.5,
+          "checked": "2026-11-21T08:58:34.838Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-mixed-fruit-1.4l",
+      "name": "عصير المراعي فواكه مشكلة",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Almarai Mixed Fruit Juice 1.4L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.4,
+        "unit": "لتر"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 8.5,
+          "checked": "2026-11-21T08:58:34.838Z",
+          "old": 9.95
+        }
+      }
+    },
+    {
+      "id": "almarai-uht-apple-140ml",
+      "name": "عصير المراعي تفاح طويل الأجل",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Almarai UHT Apple Juice 140ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 140,
+        "unit": "مل"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 1.5,
+          "checked": "2026-11-21T08:58:34.838Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-mixed-fruit-lemon-1.4l",
+      "name": "عصير المراعي فواكه مشكلة بالليمون",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Almarai Mix Fruit Lemon Juice 1.4L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.4,
+        "unit": "لتر"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 8.5,
+          "checked": "2026-11-21T08:58:34.838Z",
+          "old": 9.95
+        }
+      }
+    },
+    {
+      "id": "kdd-apple-125ml",
+      "name": "عصير كي دي دي تفاح",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Kdd Apple Juice 125ml"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 125,
+        "unit": "مل"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 1.5,
+          "checked": "2026-11-21T08:58:34.838Z"
+        }
+      }
+    },
+    {
+      "id": "almarai-apple-premium-1.4l",
+      "name": "عصير المراعي تفاح فاخر",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Almarai Apple Premium Juice 1.4L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.4,
+        "unit": "لتر"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 8.5,
+          "checked": "2026-11-21T08:58:34.838Z",
+          "old": 13
+        }
+      }
+    },
+    {
+      "id": "almarai-orange-premium-1.4l",
+      "name": "عصير المراعي برتقال فاخر",
+      "category": "pantry",
+      "shape": "carton",
+      "tags": [
+        "Almarai Orange Premium Juice 1.4L"
+      ],
+      "pack": {
+        "count": 1,
+        "size": 1.4,
+        "unit": "لتر"
+      },
+      "color": "#E8963D",
+      "prices": {
+        "tamimi": {
+          "price": 12.95,
+          "checked": "2026-11-21T08:58:34.838Z"
+        }
+      }
     }
   ]
 }
